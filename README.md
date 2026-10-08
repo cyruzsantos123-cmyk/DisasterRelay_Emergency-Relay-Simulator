@@ -11,6 +11,20 @@
 
     <style>
 
+        .small-text h1 {
+       font-size: 32px;
+}
+
+.small-text p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+    .small-text li {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
         * {
             margin: 0;
             padding: 0;
@@ -566,7 +580,7 @@ ul {
             class="slide active"
             style="background-image: url('https://scontent.fmnl4-2.fna.fbcdn.net/v/t1.15752-9/833184364_1851784059145072_1384463217068957478_n.jpg?stp=dst-jpg_tt6&cstp=mx640x360&ctp=s640x360&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHiFyHSCfLSXQyGMtH6hh_nN9JmldoGQ2830maV2gZDb1_JStQI8HpuElYkER67uLT1ltNP7h35WAWXvFpaHkhA&_nc_ohc=aekxszVgbJIQ7kNvwFfIIjU&_nc_oc=AdoIDSBnwmiLuFVajDMwfol9wYCDpUGymT2rA0lanHNKtuNdWTvjvS-D9TiLW_4x7K0&_nc_zt=23&_nc_ht=scontent.fmnl4-2.fna&_nc_ss=7b2a8&oh=03_Q7cD6gHlp9x2YxChPEpm-rw0zHV2sWZ8_UT_iDBKpc3PKYh8eg&oe=6AEB3D1C');">
 
-            <div class="content">
+            <div class="content small-text">
 
                 <h1>
                      GROUP 5
@@ -594,16 +608,10 @@ ul {
             class="slide"
             style="background-image: url('https://scontent.fmnl4-2.fna.fbcdn.net/v/t1.15752-9/833184364_1851784059145072_1384463217068957478_n.jpg?stp=dst-jpg_tt6&cstp=mx640x360&ctp=s640x360&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHiFyHSCfLSXQyGMtH6hh_nN9JmldoGQ2830maV2gZDb1_JStQI8HpuElYkER67uLT1ltNP7h35WAWXvFpaHkhA&_nc_ohc=aekxszVgbJIQ7kNvwFfIIjU&_nc_oc=AdoIDSBnwmiLuFVajDMwfol9wYCDpUGymT2rA0lanHNKtuNdWTvjvS-D9TiLW_4x7K0&_nc_zt=23&_nc_ht=scontent.fmnl4-2.fna&_nc_ss=7b2a8&oh=03_Q7cD6gHlp9x2YxChPEpm-rw0zHV2sWZ8_UT_iDBKpc3PKYh8eg&oe=6AEB3D1C');">
 
-            <div class="content">
-
-                <h2>
-                    INTRODUCTION
-                </h2>
+            <div class="content small-text">
 
                 <p>
-                    This is where you introduce
-                    your topic and explain why
-                    it is important.
+                  Disaster Relay: Emergency Logistics Simulator is a 2D game about helping people during a flood.In the game,the player needs to deliver food and medical supplies to evacuation centers,rescue civilians,and manage resources such as fuel and inventory.The player also needs to deal with flooded roads and other obstacles while trying to keep as many people safe as possible.
                 </p>
 
             </div>
@@ -618,30 +626,38 @@ ul {
             class="slide"
             style="background-image: url('https://scontent.fmnl4-2.fna.fbcdn.net/v/t1.15752-9/833184364_1851784059145072_1384463217068957478_n.jpg?stp=dst-jpg_tt6&cstp=mx640x360&ctp=s640x360&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHiFyHSCfLSXQyGMtH6hh_nN9JmldoGQ2830maV2gZDb1_JStQI8HpuElYkER67uLT1ltNP7h35WAWXvFpaHkhA&_nc_ohc=aekxszVgbJIQ7kNvwFfIIjU&_nc_oc=AdoIDSBnwmiLuFVajDMwfol9wYCDpUGymT2rA0lanHNKtuNdWTvjvS-D9TiLW_4x7K0&_nc_zt=23&_nc_ht=scontent.fmnl4-2.fna&_nc_ss=7b2a8&oh=03_Q7cD6gHlp9x2YxChPEpm-rw0zHV2sWZ8_UT_iDBKpc3PKYh8eg&oe=6AEB3D1C');">
 
-            <div class="content">
-
-                <h2>
-                    OBJECTIVES
-                </h2>
+            <div class="content small-text">
 
                 <ul>
 
                     <li>
-                        Understand the topic
+                        1.To deliver food and medical supplies to evacuation centers.
                     </li>
 
                     <li>
-                        Identify important concepts
+                        2.To rescue civilians affected by the flood.
                     </li>
 
                     <li>
-                        Explain its importance
+                        3.To properly manage fuel and supplies.
                     </li>
 
                     <li>
-                        Apply what we learned
+                        4.To deal with flooded roads and road blockades.
                     </li>
 
+                    <li>
+                        5.To use the right emergency vehicle for different situations.
+                    </li>
+
+                    <li>
+                        6.To keep the community survival rate as high as possible.
+                    </li>
+
+                    <li>
+                        7.To use Python programming concepts in creating the game.
+                    </li>
+        
                 </ul>
 
             </div>
@@ -656,16 +672,10 @@ ul {
             class="slide"
             style="background-image: url('https://scontent.fmnl4-2.fna.fbcdn.net/v/t1.15752-9/833184364_1851784059145072_1384463217068957478_n.jpg?stp=dst-jpg_tt6&cstp=mx640x360&ctp=s640x360&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHiFyHSCfLSXQyGMtH6hh_nN9JmldoGQ2830maV2gZDb1_JStQI8HpuElYkER67uLT1ltNP7h35WAWXvFpaHkhA&_nc_ohc=aekxszVgbJIQ7kNvwFfIIjU&_nc_oc=AdoIDSBnwmiLuFVajDMwfol9wYCDpUGymT2rA0lanHNKtuNdWTvjvS-D9TiLW_4x7K0&_nc_zt=23&_nc_ht=scontent.fmnl4-2.fna&_nc_ss=7b2a8&oh=03_Q7cD6gHlp9x2YxChPEpm-rw0zHV2sWZ8_UT_iDBKpc3PKYh8eg&oe=6AEB3D1C');">
 
-            <div class="content">
-
-                <h2>
-                    MAIN DISCUSSION
-                </h2>
+            <div class="content small-text">
 
                 <p>
-                    Put your main discussion
-                    and important information here.
-                </p>
+                    DisasterRelay: Emergency Logistics Simulator is a strategy and simulation game that challenges players to manage emergency situations during a flood disaster. Players must use different vehicles to deliver supplies, rescue stranded civilians, transport patients, and reach evacuation centers before time runs out. Rising flood levels, blocked roads, limited resources, and civilian health conditions require players to make quick and careful decisions. These features make the game challenging while also showing the importance of proper planning and coordination during disasters.                </p>
 
             </div>
 
@@ -679,16 +689,10 @@ ul {
             class="slide"
             style="background-image: url('https://scontent.fmnl4-2.fna.fbcdn.net/v/t1.15752-9/833184364_1851784059145072_1384463217068957478_n.jpg?stp=dst-jpg_tt6&cstp=mx640x360&ctp=s640x360&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHiFyHSCfLSXQyGMtH6hh_nN9JmldoGQ2830maV2gZDb1_JStQI8HpuElYkER67uLT1ltNP7h35WAWXvFpaHkhA&_nc_ohc=aekxszVgbJIQ7kNvwFfIIjU&_nc_oc=AdoIDSBnwmiLuFVajDMwfol9wYCDpUGymT2rA0lanHNKtuNdWTvjvS-D9TiLW_4x7K0&_nc_zt=23&_nc_ht=scontent.fmnl4-2.fna&_nc_ss=7b2a8&oh=03_Q7cD6gHlp9x2YxChPEpm-rw0zHV2sWZ8_UT_iDBKpc3PKYh8eg&oe=6AEB3D1C');">
 
-            <div class="content">
-
-                <h2>
-                    CONCLUSION
-                </h2>
+            <div class="content small-text">
 
                 <p>
-                    Summarize the important points
-                    that your audience should remember.
-                </p>
+                   In conclusion, DisasterRelay aims to provide an engaging and challenging disaster-response experience while highlighting the importance of helping communities during emergencies. The game encourages players to think strategically, manage resources wisely, and prioritize urgent situations. Through its different vehicles, changing environments, and time-based challenges, the game can provide an enjoyable experience while giving players a better understanding of the difficulties involved in disaster response and relief operations.                </p>
 
             </div>
 
@@ -702,15 +706,11 @@ ul {
             class="slide"
             style="background-image: url('https://scontent.fmnl4-2.fna.fbcdn.net/v/t1.15752-9/833184364_1851784059145072_1384463217068957478_n.jpg?stp=dst-jpg_tt6&cstp=mx640x360&ctp=s640x360&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHiFyHSCfLSXQyGMtH6hh_nN9JmldoGQ2830maV2gZDb1_JStQI8HpuElYkER67uLT1ltNP7h35WAWXvFpaHkhA&_nc_ohc=aekxszVgbJIQ7kNvwFfIIjU&_nc_oc=AdoIDSBnwmiLuFVajDMwfol9wYCDpUGymT2rA0lanHNKtuNdWTvjvS-D9TiLW_4x7K0&_nc_zt=23&_nc_ht=scontent.fmnl4-2.fna&_nc_ss=7b2a8&oh=03_Q7cD6gHlp9x2YxChPEpm-rw0zHV2sWZ8_UT_iDBKpc3PKYh8eg&oe=6AEB3D1C');">
 
-            <div class="content">
+            <div class="content small-text">
 
                 <h1>
-                    THANK YOU!
+                    That's all Thanku for listening!
                 </h1>
-
-                <p>
-                    Any Questions?
-                </p>
 
             </div>
 
@@ -858,6 +858,10 @@ ul {
         showSlide(0);
 
     </script>
+
+
+</body>
+</html>
 
 
 </body>
