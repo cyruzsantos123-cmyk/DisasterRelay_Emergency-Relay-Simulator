@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #111;
+    color: white;
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.content {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    backdrop-filter: none !important;
+    z-index: 10;
+}
+
+h1 {
+    font-size: clamp(35px, 6vw, 75px);
+    line-height: 1.4;
+    margin-bottom: 25px;
+    color: white;
+    text-shadow: 3px 3px 0px #000;
+}
+
+
+h2 {
+    font-size: clamp(25px, 4vw, 50px);
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 3px 3px 0px #000;
+}
+
+
+p {
+    font-size: clamp(14px, 2vw, 22px);
+    line-height: 2;
+    color: white;
+    text-shadow: 2px 2px 0px #000;
+}
+
+
+ul {
+    text-align: left;
+    font-size: clamp(13px, 2vw, 20px);
+    line-height: 2.2;
+    padding-left: 40px;
+    color: white;
+    text-shadow: 2px 2px 0px #000;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 35px;
+    z-index: 100;
+}
+        /* LOGO */
+
+.logo {
+    font-size: 18px;
+    color: white;
+    text-shadow:
+    3px 3px 0px #000;
+}
+        /* NAV LINKS */
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.nav-links button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 9px;
+    padding: 12px 15px;
+    border: 2px solid transparent;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.nav-links button:hover {
+    border: 2px solid white;
+    background: rgba(255,255,255,0.1);
+    transform: translateY(-2px);
+}
+
+
+.nav-links button.active {
+    background: white;
+    color: black;
+    border: 2px solid white;
+}
+        /* =========================
+           SLIDES
+        ========================= */
+.presentation {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.slide.active {
+    display: flex;
+}
+
+.slide.active {
+        display: flex;
+        animation: fadeIn 0.5s ease;
+        }
+
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(1.02);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+        }
+
+
+        /* =========================
+           DARK OVERLAY
+        ========================= */
+
+.slide::before {
+
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:linear-gradient( rgba(0,0,0,0.40), rgba(0,0,0,0.65));
+    z-index: 1;
+}
+
+
+        /* =========================
+           CONTENT BOX
+        ========================= */
+.content {
+    position: relative;
+    z-index: 2;
+    width: min(900px, 90%);
+    padding: 45px;
+    text-align: center;
+    background: rgba(0,0,0,0.55);
+    backdrop-filter: blur(6px);
+    border: 2px solid rgba(255,255,255,0.25);
+    border-radius: 18px;
+    box-shadow:0 10px 40px rgba(0,0,0,0.6);
+}
+
+
+        /* =========================
+           HEADINGS
+        ========================= */
+
+        h1 {
+
+            font-size: clamp(35px, 6vw, 70px);
+
+            line-height: 1.4;
+
+            margin-bottom: 25px;
+
+            color: white;
+
+            text-shadow:
+                4px 4px 0px #000;
+        }
+
+
+        h2 {
+
+            font-size: clamp(25px, 4vw, 50px);
+
+            line-height: 1.5;
+
+            margin-bottom: 30px;
+
+            color: white;
+
+            text-shadow:
+                3px 3px 0px #000;
+        }
+
+
+        /* =========================
+           TEXT
+        ========================= */
+
+        p {
+
+            font-size: clamp(14px, 2vw, 22px);
+
+            line-height: 2;
+
+            color: #f5f5f5;
+
+            text-shadow:
+                2px 2px 0px #000;
+        }
+
+
+        /* =========================
+           LIST
+        ========================= */
+
+        ul {
+
+            text-align: left;
+
+            font-size: clamp(13px, 2vw, 20px);
+
+            line-height: 2.2;
+
+            padding-left: 40px;
+
+            text-shadow:
+                2px 2px 0px #000;
+        }
+
+
+        li {
+            margin-bottom: 10px;
+        }
+
+
+        /* =========================
+           SLIDE NUMBER
+        ========================= */
+
+        .slide-number {
+
+            position: fixed;
+
+            bottom: 20px;
+            right: 25px;
+
+            z-index: 20;
+
+            font-size: 10px;
+
+            background: rgba(0,0,0,0.75);
+
+            padding: 12px 15px;
+
+            border-radius: 8px;
+
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+
+
+        /* =========================
+           PROGRESS BAR
+        ========================= */
+
+        .progress {
+
+            position: fixed;
+
+            bottom: 0;
+            left: 0;
+
+            height: 4px;
+
+            background: white;
+
+            width: 0%;
+
+            z-index: 200;
+
+            transition: 0.3s;
+        }
+
+
+        /* =========================
+           MOBILE NAVBAR
+        ========================= */
+
+        @media (max-width: 850px) {
+
+            .navbar {
+
+                height: 65px;
+
+                padding: 0 15px;
+
+            }
+
+            .logo {
+
+                font-size: 12px;
+
+            }
+
+            .nav-links {
+
+                gap: 3px;
+
+            }
+
+            .nav-links button {
+
+                font-size: 7px;
+
+                padding: 9px 7px;
+
+            }
+
+        }
+
+
+        @media (max-width: 600px) {
+
+            .logo {
+                display: none;
+            }
+
+            .navbar {
+                justify-content: center;
+            }
+
+            .nav-links button {
+                font-size: 6px;
+                padding: 8px 5px;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+
+            .slide {
+                padding: 90px 20px 40px;
+            }
+
+        }
+
+        .content::before,
+.content::after {
+    display: none !important;
+    content: none !important;
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
